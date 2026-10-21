@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Needledeck — Privacy Policy</title>
+<style>
+body{background:#141210;color:#f2eee6;font:16px/1.6 -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;max-width:760px;margin:0 auto;padding:48px 24px}
+h1{font-size:32px}h2{font-size:22px;margin-top:36px;color:#e8a33d}
+code{background:#1d1a16;padding:2px 6px;border-radius:6px;font-size:14px}
+table{border-collapse:collapse;width:100%;margin:12px 0}
+td{border-bottom:1px solid #2c2820;padding:10px 8px;vertical-align:top;font-size:15px}
+li{margin:6px 0}strong{color:#fff}p{color:#cfc8bd}
+</style></head><body>
+<h1>Privacy Policy — Needledeck</h1>
+
+<p><strong>Effective date:<strong> 21 October 2026</p>
+<p><strong>App:<strong> Needledeck (Android) — package <code>com.krissirk.needledeck<code></p>
+
+<h2>The short version</h2>
+
+<p>Needledeck is an offline music player. It has no accounts, no ads, no analytics</p>
+<p>and no profiling. Your music library never leaves your device. The only data</p>
+<p>that ever leaves your device is anonymous crash diagnostics.</p>
+
+<h2>What Needledeck reads</h2>
+
+<p>Needledeck reads the audio files already stored on your device through Android's</p>
+<p>MediaStore:</p>
+
+<li>Song titles, artists, albums, durations and file sizes</li>
+<li>Embedded album artwork</li>
+<li>The audio itself, in order to play it</li>
+
+<p>This data is read <strong>on your device<strong>. It is never uploaded, never indexed on a</p>
+<p>server, and never shared with anyone.</p>
+
+<h2>Permissions and why we ask</h2>
+
+<table>
+<tr><td>Permission</td><td>Why</td></tr>
+<tr><td><code>READ_MEDIA_AUDIO<code> (Android 13+) / <code>READ_EXTERNAL_STORAGE<code> (Android 12 and below)</td><td>To list and play the audio files on your device</td></tr>
+<tr><td><code>POST_NOTIFICATIONS<code></td><td>To show playback controls in the notification shade</td></tr>
+<tr><td><code>FOREGROUND_SERVICE<code> + <code>FOREGROUND_SERVICE_MEDIA_PLAYBACK<code></td><td>To keep playing when the app is in the background</td></tr>
+<tr><td><code>WAKE_LOCK<code></td><td>To stop the screen sleeping during playback</td></tr>
+<tr><td><code>INTERNET<code></td><td><strong>Only<strong> to send anonymous crash reports. The app makes no other network requests</td></tr>
+</table>
+
+<p>You can revoke the audio permission at any time in Android Settings. Needledeck</p>
+<p>will show an empty library and nothing else.</p>
+
+<h2>What is stored on your device</h2>
+
+<p>Favourites and playlists are saved in the app's private storage</p>
+<p>(<code>SharedPreferences<code>). They are never transmitted. Uninstalling the app deletes</p>
+<p>them permanently.</p>
+
+<h2>What is sent to us</h2>
+
+<p>If the app crashes, Firebase Crashlytics sends an anonymous crash report</p>
+<p>containing the error and the stack trace. It does <strong>not<strong> contain your music</p>
+<p>library, your playlists, your favourites, or any personal identifier.</p>
+
+<p>Crash reports are used only to fix bugs. We do not use them for profiling or</p>
+<p>advertising.</p>
+
+<h2>What we never do</h2>
+
+<li>No account, no login, no email address required</li>
+<li>No advertising or ad SDKs</li>
+<li>No analytics, tracking, or fingerprinting</li>
+<li>No selling or sharing of data with third parties</li>
+<li>No background location, camera, microphone, contacts, or phone access</li>
+
+<h2>Children</h2>
+
+<p>Needledeck is not directed at children under 13 and collects no personal</p>
+<p>information from anyone.</p>
+
+<h2>Changes</h2>
+
+<p>If this policy changes, the updated version will be published at this URL and</p>
+<p>the effective date above will change. The app itself requires no account and</p>
+<p>stores no remote profile, so a policy change cannot retroactively affect data</p>
+<p>already on your device.</p>
+
+<h2>Contact</h2>
+
+<p>Questions or requests: <strong><insert your contact email><strong></p>
+
+<p>If you want the data on your device removed, uninstalling Needledeck removes</p>
+<p>it. For anything else, email the address above.</p>
+</body></html>
